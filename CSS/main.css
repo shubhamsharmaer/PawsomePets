@@ -73,3 +73,56 @@ p{
     font-size: 1.3rem;
     line-height: 1.5;
 }
+
+a{
+    text-decoration: none;
+}
+
+a.primary-cta {
+    background: #ffa800;
+    padding: 1em;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: black;
+    border-radius: .3em;
+}
+
+.cat{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    /* overflow: hidden; */
+    margin-top: 3em;
+
+    img{
+        width: 70%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .inner-circle, .outer-circle{
+        position: absolute;
+        border-radius: 50%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .inner-circle{
+        background: #ffebc3;
+        width: 300px;
+        height: 300px;
+        z-index: -1;
+    }
+    .outer-circle{
+        background: white;
+        width: 500px;
+        height: 500px;
+        z-index: -2;
+    }
+}
