@@ -213,3 +213,14 @@ header{
     }
 }
 
+@media(min-width: 1200px){
+    .cat{
+        position: absolute;
+
+        img{
+            max-width: 400px;
+        }
+    }
+
+}
+
