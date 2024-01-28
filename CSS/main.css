@@ -89,6 +89,7 @@ a.primary-cta {
     font-weight: bold;
     color: black;
     border-radius: .3em;
+    margin-top: 3em;
 }
 
 .cat{
@@ -214,6 +215,19 @@ header{
 }
 
 @media(min-width: 1200px){
+
+    .wrap{
+        margin: 0 auto;
+        padding: 0 2em;
+        max-width: 1200px;
+    }
+
+    a.primary-cta{
+        display: inline-block;
+        width: auto;
+        padding: 1em 2em;
+    }
+
     .cat{
         position: absolute;
 
